@@ -1,0 +1,37 @@
+
+Moduł 20.2 : Quill - pojawia się podwójny navbar
+w edytorze tekstu komponentu PostForm.
+
+W instrukcji jest:
+"pobierz Quill wersję 1.3.5"
+Przy pobieraniu mamy takie błędy:
+
+$ npm install react-quill@1.3.5
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR!
+npm ERR! While resolving: crud-blog-app@0.1.0
+npm ERR! Found: react@18.2.0
+npm ERR! node_modules/react
+npm ERR!   react@"^18.2.0" from the root project
+npm ERR!
+npm ERR! Could not resolve dependency:
+npm ERR! peer react@"^0.14.9 || ^15.3.0 || ^16.0.0" from react-quill@1.3.5
+npm ERR! node_modules/react-quill
+npm ERR!   react-quill@"1.3.5" from the root project
+npm ERR!
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR!
+npm ERR! See C:\Users\auxil\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+Po zainstalowaniu quill bez podania wersji aplikacja 
+renderuje podwójny
+ql-toolbar. Instalowanie innych wercji quilla w tym beata nic nie dało.
+Czy tylko zdjęcie StrictMode jest rozwiązaniem? 
+JAk sobie z tym poradzić?
+
+REPO:
+https://github.com/irakis/crud-blog-app/commit/4f2cbdcbb62d1553fffb1c24b747015292c5b6ee
+

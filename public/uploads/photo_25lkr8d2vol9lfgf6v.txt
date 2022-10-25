@@ -1,0 +1,89 @@
+pression using up to 8 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (22/22), 166.00 KiB | 7.54 MiB/s, done.
+Total 22 (delta 14), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-22 stack
+remote: -----> Using buildpack: heroku/nodejs
+remote: -----> Node.js app detected
+remote:        
+remote: -----> Creating runtime environment
+remote:
+remote:        NPM_CONFIG_LOGLEVEL=error
+remote:        USE_YARN_CACHE=true
+remote:        NODE_VERBOSE=false
+remote:        NODE_ENV=production
+remote:        NODE_MODULES_CACHE=true
+remote:
+remote: -----> Installing binaries
+remote:        engines.node (package.json):  16.x
+remote:        engines.npm (package.json):   unspecified (use default)
+remote:        engines.yarn (package.json):  1.x
+remote:
+remote:        Resolving node version 16.x...
+remote:        Downloading and installing node 16.17.1...
+remote:        Using default npm version: 8.15.0
+remote:        Resolving yarn version 1.x...
+remote:        Downloading and installing yarn (1.22.19)
+remote:        Installed yarn 1.22.19
+remote:        
+remote: -----> Restoring cache
+remote:        - yarn cache
+remote:        
+remote: -----> Installing dependencies
+remote:        Installing node modules (yarn.lock)
+remote:        yarn install v1.22.19
+remote:        [1/4] Resolving packages...
+remote:        [2/4] Fetching packages...
+remote:        [3/4] Linking dependencies...
+remote:        [4/4] Building fresh packages...
+remote:        Done in 2.14s.
+remote:        
+remote: -----> Build
+remote:        Running build (yarn)
+remote:        yarn run v1.22.19
+remote:        $ cd client && yarn install && yarn build
+remote:        [1/4] Resolving packages...
+remote:        [2/4] Fetching packages...
+remote:        [3/4] Linking dependencies...
+remote: warning " > bootstrap@4.3.1" has unmet peer dependency "jquery@1.9.1 - 3".
+remote: warning " > bootstrap@4.3.1" has unmet peer dependency "popper.js@^1.14.7".
+remote: warning "react-scripts > eslint-config-react-app > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-syntax-flow@^7.14.5".
+remote: warning "react-scripts > eslint-config-react-app > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-transform-react-jsx@^7.14.9".
+remote: warning "react-scripts > react-dev-utils > fork-ts-checker-webpack-plugin@6.5.2" has unmet peer dependency "typescript@>= 2.7".
+remote: warning "react-scripts > eslint-config-react-app > @typescript-eslint/eslint-plugin > tsutils@3.21.0" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+remote: warning " > reactstrap@8.0.1" has incorrect peer dependency "react@^16.3.0".
+remote: warning " > reactstrap@8.0.1" has incorrect peer dependency "react-dom@^16.3.0".
+remote: warning Workspaces can only be enabled in private projects.
+remote:        [4/4] Building fresh packages...
+remote:        $ cd client && yarn install && yarn build
+remote: /bin/sh: 1: cd: can't cd to client
+remote: error Command failed with exit code 2.
+remote:        info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+remote: error Command failed with exit code 2.
+remote:        info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+remote: 
+remote: -----> Build failed
+remote:        
+remote:        We're sorry this build is failing! You can troubleshoot common issues here:
+remote:        https://devcenter.heroku.com/articles/troubleshooting-node-deploys
+remote:
+remote:        If you're stuck, please submit a ticket so we can help:
+remote:        https://help.heroku.com/
+remote:
+remote:        Love,
+remote:        Heroku
+remote:
+remote:  !     Push rejected, failed to compile Node.js app.
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy...
+remote:
+remote: !       Push rejected to new-wavefestival.
+remote:
+To https://git.heroku.com/new-wavefestival.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/new-wavefestival.git'
+PS E:\kodilla\Node\REST> 
